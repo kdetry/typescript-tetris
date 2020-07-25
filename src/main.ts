@@ -1,6 +1,6 @@
 import { CanvasModel } from "./models/CanvasModel";
 import { Drawer } from "./modules/Drawer";
-import { Player, DropInterval } from "./constants/GameConstants";
+import { Player } from "./constants/GameConstants";
 import { PlayerController } from "./modules/PlayerController";
 import { GetGameOverStatus } from "./helpers/GameOverHelper";
 import { BackgroundSong } from "./constants/AudioConstants";

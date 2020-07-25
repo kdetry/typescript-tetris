@@ -1,6 +1,6 @@
 import { CanvasScaleWidth, CanvasWidth, CanvasHeight, CanvasScaleHeight, ColorEnum, CanvasWidthTile, CanvasHeightTile, GameColors } from "../constants/CanvasConstants";
 import { Player, Arena } from "../constants/GameConstants";
-import { PieceModel, MatrixModel } from "../models/PieceModel";
+import { MatrixModel } from "../models/PieceModel";
 import { OffsetModel } from "../models/OffsetModel";
 import { CanvasModel } from "../models/CanvasModel";
 import { PlayerModel } from "../models/PlayerModel";

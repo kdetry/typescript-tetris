@@ -1,4 +1,4 @@
-import { Player, DropInterval, Arena, ArenaWidth } from "../constants/GameConstants";
+import { Player, DropInterval, ArenaWidth } from "../constants/GameConstants";
 import { ArenaController } from "./ArenaController";
 import { MatrixModel } from "../models/PieceModel";
 import { GetRandomPiece } from "../helpers/GetRandomPiece";

@@ -1,7 +1,6 @@
 import { Player, ArenaTile, Arena } from "../constants/GameConstants";
 import { MatrixModel } from "../models/PieceModel";
 import { PositionModel } from "../models/PlayerModel";
-import { GameColors } from "../constants/CanvasConstants";
 import { CalculateScore } from "../helpers/CalculateScore";
 
 export class ArenaController {
@@ -51,8 +50,7 @@ export class ArenaController {
             allIndexes = allIndexes.reverse();
             let difference = Arena.length - allIndexes.length;
             for (let z = Arena.length-1; z > 0; z--) {
-                console.log('z',z);
-                console.log('allIndexes[z-difference]', allIndexes[z-difference]);
+                //console.log('allIndexes[z-difference]', allIndexes[z-difference]);
                 if (allIndexes[z-difference]) {
                     Arena[z] = Arena[allIndexes[z-difference]];
                 } else {

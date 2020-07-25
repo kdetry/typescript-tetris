@@ -1,5 +1,4 @@
 import { PieceModel } from "../models/PieceModel";
-import { ColorEnum } from "./CanvasConstants";
 
 export const TPiece: PieceModel = {
     matrix: [

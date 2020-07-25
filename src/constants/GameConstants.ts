@@ -1,5 +1,4 @@
 import { PlayerModel } from "../models/PlayerModel";
-import { TPiece } from "./PieceContants";
 import { CreateMatrix } from "../helpers/CreateMatrix";
 import { GetRandomPiece } from "../helpers/GetRandomPiece";
 import { CanvasWidthTile } from "./CanvasConstants";
