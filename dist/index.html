@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="./style.css" rel="stylesheet" />
+</head>
+<body class="lightBody">
+  <h1 class="secondLine">Tetra</h1>
+  <h1 class="thirdLine">Block !</h1>
+
+  <div class="buttonWrapper">
+    <a class="" href="./game.html">Play Classic</a>
+  </div>
+  <div class="buttonWrapper">
+    <a class="" href="./game.html#advancedGame">Play Advanced</a>
+  </div>
+  <div class="buttonWrapper">
+    <a class="" onclick="exitFromApp()">Quit</a>
+  </div>
+  <script>
+    function exitFromApp()
+    {
+        console.log("in button");
+        navigator.app.exitApp();
+    }
+  </script>
+</body>
+</html>

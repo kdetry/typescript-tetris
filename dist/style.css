@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'PermanentMarker';
+    src: url('./PermanentMarker-Regular.ttf'); /* IE9 Compat Modes */
+}
+
+body {
+    background: #202028;
+    color: #fff;
+    font-family: 'PermanentMarker', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+canvas {
+    border: solid 6px #fff;
+    height: 90vh;
+}
+.gameOverArea {
+    position: absolute;
+    margin-top: 35vh;
+    height: 30vh;
+    z-index: 2;
+    top: 0px;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    background: #333333;
+    vertical-align: middle;
+    align-items: center;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+h1 {
+    font-size: 54px;
+    line-height: 54px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.lightBody {
+    background: #E0E4CC;
+    padding-top: 40px;
+}
+
+.firstLine {
+    color: #FA6900;
+}
+
+.secondLine {
+    color: #69D2E7;
+}
+
+.thirdLine {
+    color: #315267;
+    margin-bottom: 80px;
+}
+
+a {
+    font-family: 'PermanentMarker', sans-serif;
+    font-size: 36px;
+    text-decoration: underline;
+    color: #F38630;
+}
+
+.buttonWrapper {
+    width: 100%;
+    margin-bottom: 20px;
+}
