@@ -3,6 +3,9 @@
 It is simple tetris game by using Typescript. Just for tutorial, not for production, not perfect.
 Ready for mobile and desktop usage.
 
+### DEMO
+[Google Play Store](https://play.google.com/store/apps/details?id=com.classicbrick.tetris)
+
 ### Prerequisites
 
 You just need node and npm.
